@@ -1,1 +1,25 @@
-THINK before you code...
+ask user their phone package, provide options. make it lower
+store as a string variable (plan)
+error check this
+
+double cost = 0 
+
+ask user how much data they used in GB
+store as a double (gb)
+
+for green package
+- ask if user has a coupon (yes or no)
+- cost = (gb - 2)*15 + 49.99
+if coupon = yes, and cost greater than 75:
+- cost -= 20
+
+for blue package
+- cost = (gb - 4)*10 + 70
+
+purple
+99.95
+
+create a decimal format with 2 spaces after . 
+format cost decimal 
+
+tell the user their cost and how many gb of data they used
